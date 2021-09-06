@@ -1,0 +1,1 @@
+This is an app that will show meaning of your emoji. Completed through reactJS and styles with css.
