@@ -23,11 +23,12 @@ function App() {
 return (
      <div className="App">
       <h1>EMOJI TRANSLATOR</h1>
+      
       <h2>Enter the emoji to see it's meaning</h2>
-
-      <input onChange={(e) => emojiInputHandler(e.target.value)}></input>
-      <h2>{meaning}</h2>
-      <h3>Emoji that we have:</h3>
+<div id="emoticons">
+      <input onChange={(e) => emojiInputHandler(e.target.value)}></input></div>
+      <h3>{meaning}</h3>
+      <h2>Emoji that we have:</h2>
       <div>
         {" "}
         {emojiWeHave.map((emoji) => {
